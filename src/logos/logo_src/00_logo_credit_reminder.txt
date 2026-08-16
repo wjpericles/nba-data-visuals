@@ -1,0 +1,4 @@
+Remember to credit SportsLogos.Net and provide a link whenever using the logos downloaded from their site.
+
+Create an function that automatic annotates the link on graphs generated.
+https://www.sportslogos.net/
