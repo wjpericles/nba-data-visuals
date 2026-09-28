@@ -9,3 +9,21 @@ The concept is simple, score the most points and you win the game. But when NBA 
 The graph displays each repspective team's average points per win and there average points per game. There is a black horizontal line to represent the league-wide average points per win so it can be easier to analyze how teams perform against the average. At first glance, the Utah Jazz and the Miami Heat's average points per win stands out the most by being really high. In the case of the Utah Jazz, there overall average points per game is much further below their average points per win compared to the Miami Heat's averages. Another standout is how poor the Brooklyn Nets's average point per win is. Not only does the Nets have the worst average points per win, they also have the worst points per game overall. not even reaching 110 points per game. Both the Jazz and the Nets were one of the worst teams in the league in the 2025-26 NBA season.
 
 ![Figure 1](plots/points_per_win.png)
+
+## Utah's Win Performance
+
+![Figure 2](plots/uta_wins_scatter.png)
+
+The Utah Jazz didn't win often throughout the season. But out of the games the Jazz won, there were several games where both teams scored very high. This indicates that the Jazz tended to sacrafice defense in order to produce high-scoring offense to win. This is likely the reason why the Jazz averaged the highest points per win (128.9 per game) in the league and why their win average and overall average had the largest difference in the league (11.3 points). It's not sustainable to maintain such a high offensive output for an entire season, which is likely why the Jazz had a poor win percentage.
+
+## Brooklyn's Win Performance
+
+![Figure 3](plots/bkn_wins_scatter.png)
+
+## OKC's Win Performance
+
+![Figure 4](plots/okc_wins_scatter.png)
+
+## Point Average Differentials vs Win Percentage
+
+![Figure 5](plots/win_pct_vs_avg_diff.png)
