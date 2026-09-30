@@ -20,10 +20,13 @@ The Utah Jazz didn't win often throughout the season. But out of the games the J
 
 ![Figure 3](plots/bkn_wins_scatter.png)
 
-## OKC's Win Performance
+The Brooklyn Nets had the second highest point differential between points per win and overall points per game (10.4 points). Although the Nets find a way to produce a personal higher than normal offensive efficiency, they averaged the lowest points per win average (116.3 points) and had the leagues worst overall points per game average (105.9). The Nets were the only team to average less than 110 points per game. The Nets' peak offense couldn't rival the league's elite, as their average points per win lagged behind a third of the NBA. Altought victories were sparse, the Nets were able to make up for their lack of offensive output with their defensive performance. In one of their best defensive performace, the Nets managed to smother their opponents with holding them to less than 90 points while scoring an uncharacteristically high 127 points. Unfortunately, the Nets could not make strong defense a regular occurance. They ended the season with only 20 wins, third worst in the league.
+
+## Point Average Differentials vs Win Percentage
+
+### OKC's Win Performance
 
 ![Figure 4](plots/okc_wins_scatter.png)
 
-## Point Average Differentials vs Win Percentage
 
 ![Figure 5](plots/win_pct_vs_avg_diff.png)
