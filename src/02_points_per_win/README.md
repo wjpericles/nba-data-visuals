@@ -35,4 +35,41 @@ The Thunder were led by the back-to-back MVP Shai Gilgeous-Alexander. The team's
 
 ### Point Differential and Winning
 
+After seeing that two of the poorer teams, the Jazz and the Nets, have to score much more than average and the Thunder, best record in the league, don't have to score so high, I began to wonder if this was a trend. After aggregating the data to determine every teams' point differential between points per win average and overall points per game average, and to determine their win percentage, I plotted the results.
+
+| Team   |   Points per Win |   # of Wins |   Points per Game |   Points Differential |   Win Percentage |
+|:-------|-----------------:|------------:|------------------:|----------------------:|-----------------:|
+| HOU    |           118.31 |          52 |            115.23 |                  3.08 |            0.634 |
+| SAS    |           122.95 |          62 |            119.83 |                  3.12 |            0.756 |
+| DEN    |           125.3  |          54 |            122.07 |                  3.22 |            0.659 |
+| OKC    |           122.27 |          64 |            119.02 |                  3.24 |            0.78  |
+| DET    |           121.15 |          60 |            117.77 |                  3.38 |            0.732 |
+| CLE    |           124.04 |          52 |            119.52 |                  4.51 |            0.634 |
+| MIN    |           123.04 |          49 |            118    |                  5.04 |            0.598 |
+| ATL    |           123.52 |          46 |            118.46 |                  5.06 |            0.561 |
+| NYK    |           121.75 |          53 |            116.45 |                  5.3  |            0.646 |
+| BOS    |           120.45 |          56 |            114.85 |                  5.59 |            0.683 |
+| CHA    |           121.8  |          44 |            116.01 |                  5.78 |            0.537 |
+| LAL    |           122.62 |          53 |            116.34 |                  6.28 |            0.646 |
+| PHX    |           118.89 |          45 |            112.59 |                  6.3  |            0.549 |
+| TOR    |           121.02 |          46 |            114.63 |                  6.39 |            0.561 |
+| ORL    |           122.29 |          45 |            115.74 |                  6.54 |            0.549 |
+| POR    |           122.07 |          42 |            115.48 |                  6.6  |            0.512 |
+| PHI    |           122.51 |          45 |            115.88 |                  6.63 |            0.549 |
+| MEM    |           121.4  |          25 |            114.67 |                  6.73 |            0.305 |
+| LAC    |           120.6  |          42 |            113.77 |                  6.83 |            0.512 |
+| MIA    |           127.77 |          43 |            120.87 |                  6.9  |            0.524 |
+| GSW    |           121.68 |          37 |            114.61 |                  7.07 |            0.451 |
+| NOP    |           123.88 |          26 |            115.52 |                  8.36 |            0.317 |
+| WAS    |           121.47 |          17 |            112.9  |                  8.57 |            0.207 |
+| CHI    |           125    |          31 |            116.3  |                  8.7  |            0.378 |
+| IND    |           121.21 |          19 |            112.43 |                  8.78 |            0.232 |
+| DAL    |           122.92 |          26 |            114.12 |                  8.8  |            0.317 |
+| SAC    |           121.05 |          22 |            111    |                 10.05 |            0.268 |
+| MIL    |           120.91 |          32 |            110.63 |                 10.27 |            0.39  |
+| BKN    |           116.3  |          20 |            105.93 |                 10.37 |            0.244 |
+| UTA    |           128.86 |          22 |            117.59 |                 11.28 |            0.268 |
+
 ![Figure 5](plots/win_pct_vs_avg_diff.png)
+
+It was immediately clear that the more points above average a team needs to score, the poorer the winning percentage. The three 60-win teams, the Thunder, Spurs, and Pistons only had to score and extra 3 points, or roughly one shot, in order to win thier game. On the opposite end, poorer teams, like the Jazz, Nets, and Wizards had to be very uncharacteristic to win their games, and that is not sustainable for an entire season, hence the poor records.
