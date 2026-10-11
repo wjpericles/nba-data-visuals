@@ -84,3 +84,6 @@ Look no further than the league's elite 60-win tier—anchored by powerhouses li
 On the flip side, the league's bottom-dwellers tell a cautionary tale of unsustainable variance. Struggling squads like the Utah Jazz and the Brooklyn Nets relied on massive, exhausting outliers to scrape together victories, suffering from double-digit point differentials between their points-per-win and overall averages. Whether it was Utah being forced into high-scoring, defense-sacrificing shootouts or Brooklyn oscillating between a league-worst overall offense and rare defensive masterclasses, these teams had to be entirely uncharacteristic just to taste success.
 
 Ultimately, basketball analytics proves that chasing high-variance scoring explosions is a trap. True success isn't about how high you can spike your ceiling on any given night—it's about how sustainable and close your winning formula is to your everyday identity.
+
+### More Info
+For more information on how I created each plot, you can view the notebook [points_per_win.ipynb](https://github.com/wjpericles/nba-data-visuals/blob/1-points-per-game-per-win/src/02_points_per_win/points_per_win.ipynb).
