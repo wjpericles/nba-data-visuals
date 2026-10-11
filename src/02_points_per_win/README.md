@@ -86,4 +86,4 @@ On the flip side, the league's bottom-dwellers tell a cautionary tale of unsusta
 Ultimately, basketball analytics proves that chasing high-variance scoring explosions is a trap. True success isn't about how high you can spike your ceiling on any given night—it's about how sustainable and close your winning formula is to your everyday identity.
 
 ### More Info
-For more information on how I created each plot, you can view the notebook [points_per_win.ipynb](https://github.com/wjpericles/nba-data-visuals/blob/1-points-per-game-per-win/src/02_points_per_win/points_per_win.ipynb).
+For more information on how I created each plot, you can view the notebook [points_per_win.ipynb](https://github.com/wjpericles/nba-data-visuals/blob/main/src/02_points_per_win/points_per_win.ipynb).
