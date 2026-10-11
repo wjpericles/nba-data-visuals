@@ -1,13 +1,14 @@
 # 2025-26 Points per Win
 *by Wendel Pericles*
+*10/11/2026*
 
 ## Introduction
 
-The concept is simple, score the most points and you win the game. But when NBA teams win games, do they score more than their average or do some teams have to reduce thier offensive output and focus on other aspects of the game in order to win? If a team is really good, then the assumption is that they likely blow away most competition with high scoring basketball. Perhaps it may be the other around, poorer teams may need to cultivate more effort than normal to pull out a win. But is that method sustainable?
+The concept is simple, score the most points and you win the game. But when NBA teams win games, do they score more than their average or do some teams have to reduce their offensive output and focus on other aspects of the game to win? If a team is good, then the assumption is that they likely blow away most competition with high scoring basketball. Perhaps it may be the other around, poorer teams may need to cultivate more effort than normal to pull out a win. But is that method sustainable?
 
 ## Points per Win Vs Overall Average
 
-The graph displays each repspective team's average points per win and there average points per game. There is a black horizontal line to represent the league-wide average points per win so it can be easier to analyze how teams perform against the average. At first glance, the Utah Jazz and the Miami Heat's average points per win stands out the most by being really high. In the case of the Utah Jazz, there overall average points per game is much further below their average points per win compared to the Miami Heat's averages. Another standout is how poor the Brooklyn Nets's average point per win is. Not only does the Nets have the worst average points per win, they also have the worst points per game overall. not even reaching 110 points per game. Both the Jazz and the Nets were one of the worst teams in the league in the 2025-26 NBA season.
+The graph displays each respective team's average points per win and their average points per game. There is a black horizontal line to represent the league-wide average points per win so it can be easier to analyze how teams perform against the average. At first glance, the Utah Jazz and the Miami Heat's average points per win stands out the most by being high. In the case of the Utah Jazz, there overall average points per game is much further below their average points per win compared to the Miami Heat's averages. Another standout is how poor the Brooklyn Nets’ average point per win is. Not only does the Nets have the worst average points per win, but they also have the worst points per game overall. not even reaching 110 points per game. Both the Jazz and the Nets were one of the worst teams in the league in the 2025-26 NBA season.
 
 ![Figure 1](plots/points_per_win.png)
 
@@ -15,13 +16,13 @@ The graph displays each repspective team's average points per win and there aver
 
 ![Figure 2](plots/uta_wins_scatter.png)
 
-The Utah Jazz didn't win often throughout the season. But out of the games the Jazz won, there were several games where both teams scored very high. This indicates that the Jazz tended to sacrafice defense in order to produce high-scoring offense to win. This is likely the reason why the Jazz averaged the highest points per win (128.9 per game) in the league and why their win average and overall average had the largest difference in the league (11.3 points). It's not sustainable to maintain such a high offensive output for an entire season, which is likely why the Jazz had a poor win percentage.
+The Utah Jazz didn't win often throughout the season. But out of the games the Jazz won, there were several games where both teams scored very high. This indicates that the Jazz tended to sacrifice defense to produce high-scoring offense to win. This is likely the reason why the Jazz averaged the highest points per win (128.9 per game) in the league and why their win average and overall average had the largest difference in the league (11.3 points). It's not sustainable to maintain such a high offensive output for an entire season, which is likely why the Jazz had a poor win percentage.
 
 ## Brooklyn's Win Performance
 
 ![Figure 3](plots/bkn_wins_scatter.png)
 
-The Brooklyn Nets had the second highest point differential between points per win and overall points per game (10.4 points). Although the Nets find a way to produce a personal higher than normal offensive efficiency, they averaged the lowest points per win average (116.3 points) and had the leagues worst overall points per game average (105.9). The Nets were the only team to average less than 110 points per game. The Nets' peak offense couldn't rival the league's elite, as their average points per win lagged behind a third of the NBA. Altought victories were sparse, the Nets were able to make up for their lack of offensive output with their defensive performance. In one of their best defensive performace, the Nets managed to smother their opponents with holding them to less than 90 points while scoring an uncharacteristically high 127 points. Unfortunately, the Nets could not make strong defense a regular occurance. They ended the season with only 20 wins, third worst in the league.
+The Brooklyn Nets had the second highest point differential between points per win and overall points per game (10.4 points). Although the Nets find a way to produce a personal higher than normal offensive efficiency, they averaged the lowest points per win average (116.3 points) and had the league’s worst overall points per game average (105.9). The Nets were the only team to average less than 110 points per game. The Nets' peak offense couldn't rival the league's elite, as their average points per win lagged behind a third of the NBA’s overall average. Although victories were sparse, the Nets were able to make up for their lack of offensive output with their defensive performance. In one of their best defensive performances, the Nets managed to smother their opponents with holding them to less than 90 points while scoring an uncharacteristically high 127 points. Unfortunately, the Nets could not make strong defense a regular occurrence. They ended the season with only 20 wins, third worst in the league.
 
 ## Point Average Differentials vs Win Percentage
 
@@ -35,7 +36,7 @@ The Thunder were led by the back-to-back MVP Shai Gilgeous-Alexander. The team's
 
 ### Point Differential and Winning
 
-After seeing that two of the poorer teams, the Jazz and the Nets, have to score much more than average and the Thunder, best record in the league, don't have to score so high, I began to wonder if this was a trend. After aggregating the data to determine every teams' point differential between points per win average and overall points per game average, and to determine their win percentage, I plotted the results.
+After seeing that two of the poorer teams, the Jazz and the Nets, must score much more than average and the Thunder, best record in the league, don't have to score so high, I began to wonder if this was a trend. After aggregating the data to determine all teams' point differential between points per win average and overall points per game average, and to determine their win percentage, I plotted the results.
 
 | Team   |   Points per Win |   # of Wins |   Points per Game |   Points Differential |   Win Percentage |
 |:-------|-----------------:|------------:|------------------:|----------------------:|-----------------:|
@@ -72,4 +73,14 @@ After seeing that two of the poorer teams, the Jazz and the Nets, have to score 
 
 ![Figure 5](plots/win_pct_vs_avg_diff.png)
 
-It was immediately clear that the more points above average a team needs to score, the poorer the winning percentage. The three 60-win teams, the Thunder, Spurs, and Pistons only had to score and extra 3 points, or roughly one shot, in order to win thier game. On the opposite end, poorer teams, like the Jazz, Nets, and Wizards had to be very uncharacteristic to win their games, and that is not sustainable for an entire season, hence the poor records.
+It was immediately clear that the more points above average a team needs to score, the poorer the winning percentage. The three 60-win teams, the Thunder, Spurs, and Pistons only had to score and extra 3 points, or roughly one shot, to win their game. On the opposite end, poorer teams, like the Jazz, Nets, and Wizards had to be very uncharacteristic to win their games, and that is not sustainable for an entire season, hence the poor records.
+
+## The Bottom Line: Consistency Wins Games
+
+When the final buzzer sounds on an 82-game NBA season, the numbers tell a story far deeper than simple wins and losses. The data from the 2025-26 season reveals a clear, undeniable trend: the fewer points a team has to stretch above their season average to secure a victory, the better their winning percentage will be.
+
+Look no further than the league's elite 60-win tier—anchored by powerhouses like the Oklahoma City Thunder, San Antonio Spurs, and Detroit Pistons. These contenders operated like well-oiled machines, requiring a mere three-point bump (roughly a single extra field goal) above their nightly average to close out wins. They didn't need to reinvent the wheel or play completely out of character; their standard baseline was already efficient enough to get the job done.
+
+On the flip side, the league's bottom-dwellers tell a cautionary tale of unsustainable variance. Struggling squads like the Utah Jazz and the Brooklyn Nets relied on massive, exhausting outliers to scrape together victories, suffering from double-digit point differentials between their points-per-win and overall averages. Whether it was Utah being forced into high-scoring, defense-sacrificing shootouts or Brooklyn oscillating between a league-worst overall offense and rare defensive masterclasses, these teams had to be entirely uncharacteristic just to taste success.
+
+Ultimately, basketball analytics proves that chasing high-variance scoring explosions is a trap. True success isn't about how high you can spike your ceiling on any given night—it's about how sustainable and close your winning formula is to your everyday identity.
